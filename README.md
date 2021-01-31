@@ -25,9 +25,9 @@ You can set the file route.\
 line1: making new artwork folder root directories.\
 line2: default template exel location.\
 line3: default pureref file location.\
-line4: default clipstudios file location.\
+line4: default clipstudios file location.
 
-example:\
+example:
 ```
 /mnt/d/Creative/illustration/Work/
 /mnt/d/Creative/illustration/Work/template.xlsx
