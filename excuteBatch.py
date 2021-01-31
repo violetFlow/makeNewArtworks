@@ -5,24 +5,17 @@ import shutil
 # Get prams
 # fields
 paramList = sys.argv 
-categoryList = ['Commision', 'Original creation' , 'Seconde creation']
+categoryList = ['Commision', 'Original creation' , 'Second creation']
 result = 1
 
 # Using readlines 
 routeTxt = open('route.txt', 'r')
 lines = routeTxt.readlines()
 
-ans = input('Do you want to new route? (Y/N)') 
-if (ans == 'Y' or ans == 'y'):
-    defaultRoute = input('Input new route') 
-    defaultTemplate = input('Input new template route') 
-    defaultPureref = input('Input new pureref route') 
-    defaultClips = input('Input new clips route') 
-else:
-    defaultRoute = lines[0].strip()
-    defaultTemplate = lines[1].strip()
-    defaultPureref = lines[2].strip()
-    defaultClips = lines[3].strip()
+defaultRoute = lines[0].strip()
+defaultTemplate = lines[1].strip()
+defaultPureref = lines[2].strip()
+defaultClips = lines[3].strip()
 
 # Main proccess
 try:
