@@ -1,0 +1,4 @@
+/mnt/d/Creative/illustration/Work/
+/mnt/d/Creative/illustration/Work/template.xlsx
+/mnt/d/Creative/illustration/Work/NewScene.pur
+/mnt/d/Creative/illustration/Work/NewClip.clip
